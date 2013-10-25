@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9536320A17214CF10064EFE4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9536320917214CF10064EFE4 /* Default-568h@2x.png */; };
+		95363216172280620064EFE4 /* RDMovement.m in Sources */ = {isa = PBXBuildFile; fileRef = 95363215172280620064EFE4 /* RDMovement.m */; };
+		9597E3A5172294D500CA5FA0 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9597E3A4172294D500CA5FA0 /* ExternalAccessory.framework */; };
+		9597E3A7172294EB00CA5FA0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9597E3A6172294EB00CA5FA0 /* QuartzCore.framework */; };
+		A316272F15B10F3000C2B660 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A316272E15B10F3000C2B660 /* UIKit.framework */; };
+		A316273115B10F3000C2B660 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A316273015B10F3000C2B660 /* Foundation.framework */; };
+		A316273315B10F3000C2B660 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A316273215B10F3000C2B660 /* CoreGraphics.framework */; };
+		A316273915B10F3000C2B660 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A316273715B10F3000C2B660 /* InfoPlist.strings */; };
+		A316273B15B10F3000C2B660 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A316273A15B10F3000C2B660 /* main.m */; };
+		A316273F15B10F3000C2B660 /* RDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A316273E15B10F3000C2B660 /* RDAppDelegate.m */; };
+		A321D8CE15C1ACD600457877 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A321D8CD15C1ACD600457877 /* CoreMotion.framework */; };
+		A3A0407D15B7B9E200BCEFC7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A0407C15B7B9E200BCEFC7 /* Default.png */; };
+		A3A0408115B7BA3400BCEFC7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A0407F15B7B9E900BCEFC7 /* Default@2x.png */; };
+		A3B1A5CE15B1111B00D27191 /* RDDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B1A5CD15B1111B00D27191 /* RDDrawView.m */; };
+		A3B1A5D115B1112500D27191 /* RDRecreateView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B1A5D015B1112500D27191 /* RDRecreateView.m */; };
+		A3B1A5D715B1114800D27191 /* RDDrawVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A3B1A5D615B1114800D27191 /* RDDrawVC.m */; };
+		A3B1A60A15B114C600D27191 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B1A60915B114C600D27191 /* OpenAL.framework */; };
+		A3B1A60C15B114CF00D27191 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B1A60B15B114CF00D27191 /* AudioToolbox.framework */; };
+		A3B1A60E15B114D500D27191 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B1A60D15B114D500D27191 /* AVFoundation.framework */; };
+		A3B1A61015B114DD00D27191 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3B1A60F15B114DD00D27191 /* MediaPlayer.framework */; };
+		A3C5517115D4A01200E9A694 /* RDRecreateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C5517015D4A01200E9A694 /* RDRecreateVC.m */; };
+		A3EDE8F015C9A0DD000456E6 /* appIcon@57.png in Resources */ = {isa = PBXBuildFile; fileRef = A3EDE8EF15C9A0DD000456E6 /* appIcon@57.png */; };
+		A3EDE8F315C9A0E8000456E6 /* appIcon@114.png in Resources */ = {isa = PBXBuildFile; fileRef = A3EDE8F215C9A0E8000456E6 /* appIcon@114.png */; };
+		A3EDE90D15C9F2F4000456E6 /* appIcon@72.png in Resources */ = {isa = PBXBuildFile; fileRef = A3EDE90C15C9F2F3000456E6 /* appIcon@72.png */; };
+		A3EDE90F15C9F301000456E6 /* appIcon@144.png in Resources */ = {isa = PBXBuildFile; fileRef = A3EDE90E15C9F301000456E6 /* appIcon@144.png */; };
+		E6404BBF181A88D5006856F2 /* RDUI_play.png in Resources */ = {isa = PBXBuildFile; fileRef = E6404BBD181A88D5006856F2 /* RDUI_play.png */; };
+		E6404BC0181A88D5006856F2 /* RDUI_square.png in Resources */ = {isa = PBXBuildFile; fileRef = E6404BBE181A88D5006856F2 /* RDUI_square.png */; };
+		E6BDD7C717F11AD50036FE5A /* RMCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6BDD7C617F11AD50036FE5A /* RMCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9536320917214CF10064EFE4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		95363214172280610064EFE4 /* RDMovement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDMovement.h; sourceTree = "<group>"; };
+		95363215172280620064EFE4 /* RDMovement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDMovement.m; sourceTree = "<group>"; };
+		9541B8AF17261C7400CBA502 /* RDStroke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDStroke.h; sourceTree = "<group>"; };
+		9597E3A4172294D500CA5FA0 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		9597E3A6172294EB00CA5FA0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A316272A15B10F3000C2B660 /* RomoDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RomoDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A316272E15B10F3000C2B660 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A316273015B10F3000C2B660 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A316273215B10F3000C2B660 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A316273615B10F3000C2B660 /* RomoDoodle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RomoDoodle-Info.plist"; sourceTree = "<group>"; };
+		A316273815B10F3000C2B660 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A316273A15B10F3000C2B660 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A316273C15B10F3000C2B660 /* RomoDoodle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RomoDoodle-Prefix.pch"; sourceTree = "<group>"; };
+		A316273D15B10F3000C2B660 /* RDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RDAppDelegate.h; sourceTree = "<group>"; };
+		A316273E15B10F3000C2B660 /* RDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RDAppDelegate.m; sourceTree = "<group>"; };
+		A321D8CD15C1ACD600457877 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A3A0407C15B7B9E200BCEFC7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A3A0407F15B7B9E900BCEFC7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A3B1A5CC15B1111B00D27191 /* RDDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDrawView.h; sourceTree = "<group>"; };
+		A3B1A5CD15B1111B00D27191 /* RDDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDrawView.m; sourceTree = "<group>"; };
+		A3B1A5CF15B1112500D27191 /* RDRecreateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDRecreateView.h; sourceTree = "<group>"; };
+		A3B1A5D015B1112500D27191 /* RDRecreateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDRecreateView.m; sourceTree = "<group>"; };
+		A3B1A5D515B1114800D27191 /* RDDrawVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDDrawVC.h; sourceTree = "<group>"; };
+		A3B1A5D615B1114800D27191 /* RDDrawVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDDrawVC.m; sourceTree = "<group>"; };
+		A3B1A60915B114C600D27191 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		A3B1A60B15B114CF00D27191 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A3B1A60D15B114D500D27191 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A3B1A60F15B114DD00D27191 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A3C5516F15D4A01200E9A694 /* RDRecreateVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDRecreateVC.h; sourceTree = "<group>"; };
+		A3C5517015D4A01200E9A694 /* RDRecreateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDRecreateVC.m; sourceTree = "<group>"; };
+		A3EDE8EF15C9A0DD000456E6 /* appIcon@57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@57.png"; sourceTree = "<group>"; };
+		A3EDE8F215C9A0E8000456E6 /* appIcon@114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@114.png"; sourceTree = "<group>"; };
+		A3EDE90C15C9F2F3000456E6 /* appIcon@72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@72.png"; sourceTree = "<group>"; };
+		A3EDE90E15C9F301000456E6 /* appIcon@144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@144.png"; sourceTree = "<group>"; };
+		E6404BBD181A88D5006856F2 /* RDUI_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RDUI_play.png; sourceTree = "<group>"; };
+		E6404BBE181A88D5006856F2 /* RDUI_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RDUI_square.png; sourceTree = "<group>"; };
+		E6BDD7C617F11AD50036FE5A /* RMCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RMCore.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A316272715B10F3000C2B660 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9597E3A7172294EB00CA5FA0 /* QuartzCore.framework in Frameworks */,
+				9597E3A5172294D500CA5FA0 /* ExternalAccessory.framework in Frameworks */,
+				A321D8CE15C1ACD600457877 /* CoreMotion.framework in Frameworks */,
+				E6BDD7C717F11AD50036FE5A /* RMCore.framework in Frameworks */,
+				A3B1A61015B114DD00D27191 /* MediaPlayer.framework in Frameworks */,
+				A3B1A60E15B114D500D27191 /* AVFoundation.framework in Frameworks */,
+				A3B1A60C15B114CF00D27191 /* AudioToolbox.framework in Frameworks */,
+				A3B1A60A15B114C600D27191 /* OpenAL.framework in Frameworks */,
+				A316272F15B10F3000C2B660 /* UIKit.framework in Frameworks */,
+				A316273115B10F3000C2B660 /* Foundation.framework in Frameworks */,
+				A316273315B10F3000C2B660 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9536320B1721539B0064EFE4 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A316273D15B10F3000C2B660 /* RDAppDelegate.h */,
+				A316273E15B10F3000C2B660 /* RDAppDelegate.m */,
+				9536320F1721542B0064EFE4 /* Draw */,
+				95363210172154510064EFE4 /* Recreate */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		9536320C172153CA0064EFE4 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				A3EDE91015C9F3C4000456E6 /* App-Essentials */,
+				E6404BBB181A88D5006856F2 /* Resources */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		9536320F1721542B0064EFE4 /* Draw */ = {
+			isa = PBXGroup;
+			children = (
+				A3B1A5D515B1114800D27191 /* RDDrawVC.h */,
+				A3B1A5D615B1114800D27191 /* RDDrawVC.m */,
+				A3B1A5CC15B1111B00D27191 /* RDDrawView.h */,
+				A3B1A5CD15B1111B00D27191 /* RDDrawView.m */,
+			);
+			path = Draw;
+			sourceTree = "<group>";
+		};
+		95363210172154510064EFE4 /* Recreate */ = {
+			isa = PBXGroup;
+			children = (
+				A3C5516F15D4A01200E9A694 /* RDRecreateVC.h */,
+				A3C5517015D4A01200E9A694 /* RDRecreateVC.m */,
+				A3B1A5CF15B1112500D27191 /* RDRecreateView.h */,
+				A3B1A5D015B1112500D27191 /* RDRecreateView.m */,
+			);
+			path = Recreate;
+			sourceTree = "<group>";
+		};
+		95FD55DD172704DF00C9A30A /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				95363214172280610064EFE4 /* RDMovement.h */,
+				95363215172280620064EFE4 /* RDMovement.m */,
+				9541B8AF17261C7400CBA502 /* RDStroke.h */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A316271F15B10F3000C2B660 = {
+			isa = PBXGroup;
+			children = (
+				A316273415B10F3000C2B660 /* RomoDoodle */,
+				9536320C172153CA0064EFE4 /* Content */,
+				A316272D15B10F3000C2B660 /* Frameworks */,
+				A316272B15B10F3000C2B660 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A316272B15B10F3000C2B660 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A316272A15B10F3000C2B660 /* RomoDoodle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A316272D15B10F3000C2B660 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6BDD7C617F11AD50036FE5A /* RMCore.framework */,
+				A3B1A60B15B114CF00D27191 /* AudioToolbox.framework */,
+				A3B1A60D15B114D500D27191 /* AVFoundation.framework */,
+				A316273215B10F3000C2B660 /* CoreGraphics.framework */,
+				A321D8CD15C1ACD600457877 /* CoreMotion.framework */,
+				9597E3A4172294D500CA5FA0 /* ExternalAccessory.framework */,
+				A316273015B10F3000C2B660 /* Foundation.framework */,
+				A3B1A60F15B114DD00D27191 /* MediaPlayer.framework */,
+				A3B1A60915B114C600D27191 /* OpenAL.framework */,
+				9597E3A6172294EB00CA5FA0 /* QuartzCore.framework */,
+				A316272E15B10F3000C2B660 /* UIKit.framework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		A316273415B10F3000C2B660 /* RomoDoodle */ = {
+			isa = PBXGroup;
+			children = (
+				95FD55DD172704DF00C9A30A /* lib */,
+				9536320B1721539B0064EFE4 /* src */,
+				A316273515B10F3000C2B660 /* Supporting Files */,
+			);
+			path = RomoDoodle;
+			sourceTree = "<group>";
+		};
+		A316273515B10F3000C2B660 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A316273615B10F3000C2B660 /* RomoDoodle-Info.plist */,
+				A316273715B10F3000C2B660 /* InfoPlist.strings */,
+				A316273A15B10F3000C2B660 /* main.m */,
+				A316273C15B10F3000C2B660 /* RomoDoodle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3EDE91015C9F3C4000456E6 /* App-Essentials */ = {
+			isa = PBXGroup;
+			children = (
+				A3EDE8EF15C9A0DD000456E6 /* appIcon@57.png */,
+				A3EDE90C15C9F2F3000456E6 /* appIcon@72.png */,
+				A3EDE8F215C9A0E8000456E6 /* appIcon@114.png */,
+				A3EDE90E15C9F301000456E6 /* appIcon@144.png */,
+				A3A0407C15B7B9E200BCEFC7 /* Default.png */,
+				A3A0407F15B7B9E900BCEFC7 /* Default@2x.png */,
+				9536320917214CF10064EFE4 /* Default-568h@2x.png */,
+			);
+			path = "App-Essentials";
+			sourceTree = "<group>";
+		};
+		E6404BBB181A88D5006856F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6404BBC181A88D5006856F2 /* Controls */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E6404BBC181A88D5006856F2 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				E6404BBD181A88D5006856F2 /* RDUI_play.png */,
+				E6404BBE181A88D5006856F2 /* RDUI_square.png */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A316272915B10F3000C2B660 /* RomoDoodle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A316274215B10F3000C2B660 /* Build configuration list for PBXNativeTarget "RomoDoodle" */;
+			buildPhases = (
+				A316272615B10F3000C2B660 /* Sources */,
+				A316272715B10F3000C2B660 /* Frameworks */,
+				A316272815B10F3000C2B660 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RomoDoodle;
+			productName = RomoDoodle;
+			productReference = A316272A15B10F3000C2B660 /* RomoDoodle.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A316272115B10F3000C2B660 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RD;
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = A316272415B10F3000C2B660 /* Build configuration list for PBXProject "RomoDoodle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A316271F15B10F3000C2B660;
+			productRefGroup = A316272B15B10F3000C2B660 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A316272915B10F3000C2B660 /* RomoDoodle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A316272815B10F3000C2B660 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A316273915B10F3000C2B660 /* InfoPlist.strings in Resources */,
+				A3A0407D15B7B9E200BCEFC7 /* Default.png in Resources */,
+				A3A0408115B7BA3400BCEFC7 /* Default@2x.png in Resources */,
+				A3EDE8F015C9A0DD000456E6 /* appIcon@57.png in Resources */,
+				A3EDE8F315C9A0E8000456E6 /* appIcon@114.png in Resources */,
+				E6404BBF181A88D5006856F2 /* RDUI_play.png in Resources */,
+				E6404BC0181A88D5006856F2 /* RDUI_square.png in Resources */,
+				A3EDE90D15C9F2F4000456E6 /* appIcon@72.png in Resources */,
+				A3EDE90F15C9F301000456E6 /* appIcon@144.png in Resources */,
+				9536320A17214CF10064EFE4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A316272615B10F3000C2B660 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A316273B15B10F3000C2B660 /* main.m in Sources */,
+				A316273F15B10F3000C2B660 /* RDAppDelegate.m in Sources */,
+				A3B1A5CE15B1111B00D27191 /* RDDrawView.m in Sources */,
+				A3B1A5D115B1112500D27191 /* RDRecreateView.m in Sources */,
+				A3B1A5D715B1114800D27191 /* RDDrawVC.m in Sources */,
+				A3C5517115D4A01200E9A694 /* RDRecreateVC.m in Sources */,
+				95363216172280620064EFE4 /* RDMovement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A316273715B10F3000C2B660 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A316273815B10F3000C2B660 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A316274015B10F3000C2B660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A316274115B10F3000C2B660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A316274315B10F3000C2B660 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomoDoodle/RomoDoodle-Prefix.pch";
+				INFOPLIST_FILE = "RomoDoodle/RomoDoodle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A316274415B10F3000C2B660 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RomoDoodle/RomoDoodle-Prefix.pch";
+				INFOPLIST_FILE = "RomoDoodle/RomoDoodle-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A316272415B10F3000C2B660 /* Build configuration list for PBXProject "RomoDoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A316274015B10F3000C2B660 /* Debug */,
+				A316274115B10F3000C2B660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A316274215B10F3000C2B660 /* Build configuration list for PBXNativeTarget "RomoDoodle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A316274315B10F3000C2B660 /* Debug */,
+				A316274415B10F3000C2B660 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A316272115B10F3000C2B660 /* Project object */;
+}
